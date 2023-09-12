@@ -6,9 +6,20 @@ Content-Type: application/json
 
 {
     "name": "Igor Galindo",
-    "email": "igor@email.com",
-    "password": "123456"
+    "email": "igorg@email.com",
+    "password": "igor123456"
 }
 
 ###
+
+# @name get_token
+POST {{baseUrl}}/sessions
+Content-Type: application/json
+
+{
+    "email": "igorg@email.com",
+    "password": "igor123456"
+}
+
+
 
