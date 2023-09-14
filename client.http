@@ -29,6 +29,11 @@ POST {{baseUrl}}/questions
 Content-Type: application/json
 Authorization: Bearer {{authToken}}
 
+{
+    "title": "Nova pergunta {{$randomInt 0 10000}}",
+    "content": "Conteúdo da pergunta"
+}
+
 
 
 
